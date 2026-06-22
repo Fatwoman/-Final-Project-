@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RISCV_V2.srcs/sources_1/imports/src/ALU.v" \
+"../../../../RISCV_V2.srcs/sources_1/imports/src/ALU_Decoder.v" \
+"../../../../RISCV_V2.srcs/sources_1/new/Address_Decoder.v" \
+"../../../../RISCV_V2.srcs/sources_1/imports/src/Control_Unit_Top.v" \
+"../../../../RISCV_V2.srcs/sources_1/new/Data_Memory.v" \
+"../../../../RISCV_V2.srcs/sources_1/imports/src/Main_Decoder.v" \
+"../../../../RISCV_V2.srcs/sources_1/imports/src/PC.v" \
+"../../../../RISCV_V2.srcs/sources_1/imports/src/Register_File.v" \
+"../../../../RISCV_V2.srcs/sources_1/imports/src/Sign_Extend.v" \
+"../../../../RISCV_V2.srcs/sources_1/new/Single_Cycle_Top.v" \
+"../../../../RISCV_V2.srcs/sources_1/new/Top.v" \
+"../../../../RISCV_V2.srcs/sim_1/new/tb_Top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
