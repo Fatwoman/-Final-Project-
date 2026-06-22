@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri May 22 22:23:11 2026
+# Process ID         : 34768
+# Current directory  : C:/Hardware/RISCV_V2/RISCV_V2.runs/impl_1
+# Command line       : vivado.exe -log Top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Top.tcl -notrace
+# Log file           : C:/Hardware/RISCV_V2/RISCV_V2.runs/impl_1/Top.vdi
+# Journal file       : C:/Hardware/RISCV_V2/RISCV_V2.runs/impl_1\vivado.jou
+# Running On         : DESKTOP-21U1DTK
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13700F
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 24
+# Host memory        : 34193 MB
+# Swap memory        : 12844 MB
+# Total Virtual      : 47038 MB
+# Available Virtual  : 7737 MB
+#-----------------------------------------------------------
+source Top.tcl -notrace
