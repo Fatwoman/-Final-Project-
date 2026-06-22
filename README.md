@@ -46,5 +46,5 @@ Digilent Basys 3
 * 僅實作 UART 發送 (Tx)，尚無接收 (Rx) 雙向互動功能。
 
 ## 10. 外部來源與授權說明
-* **RISC-V 核心：** 採用 [MERL-DSU]([https://github.com/MERL-DSU/RISC-V-Single-Cycle-Core](https://github.com/Varunkumar0610/RISC-V-Single-Cycle-Core)) 開源架構，基於 Apache License 2.0 授權使用。
+* **RISC-V 核心：** 採用 https://github.com/Varunkumar0610/RISC-V-Single-Cycle-Core開源架構，基於 Apache License 2.0 授權使用。
 * **UART 模組：** 參考 [nandland/UART](https://github.com/nandland/UART) 專案修改擴充。
