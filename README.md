@@ -7,7 +7,7 @@ RISC-V Slot Machine with Hardware RNG and UART Statistical Verification
 Digilent Basys 3
 
 ## 3. 使用工具版本
-* **Vivado 版本：** [填入你的 Vivado 版本，例如 2023.2]
+* **Vivado 版本：** Vivado 2023.2
 * **RISC-V Toolchain：** 機器碼透過 Memory Initialization File (.coe/.mem) 載入。
 * **Python 環境：** Python 3.x (需安裝 pyserial, matplotlib)
 
@@ -19,15 +19,15 @@ Digilent Basys 3
   * `UART_TX.v`：修改過之串列通訊發送模組。
   * `Control_Unit_Top.v` 等：開源之 RISC-V 核心模組。
 * `RISCV_V2.xpr`：Vivado 專案執行檔。
-* `uart_plot.py`：[填入你的 Python 檔名] PC 端接收與畫圖腳本。
+* `count.py`： PC 端接收與畫圖腳本。
 
 ## 5. 如何產生 bitstream
 1. 使用 Vivado 開啟 `RISCV_V2.xpr` 專案。
 2. 點擊左側 Flow Navigator 中的 **Generate Bitstream**。
-3. 等待合成 (Synthesis) 與實作 (Implementation) 跑完，即可產生 `.bit` 檔。
+3. 等待Synthesis與Implementation跑完，即可產生 `.bit` 檔。
 
 ## 6. 如何載入或修改 RISC-V 程式
-本專案的軟體控制邏輯已編譯為機器碼，並存放在 `[填入存放初始值的檔案名稱，例如 Data_Memory.v 或 .coe 檔]` 中。系統上電時會自動載入至 Instruction Memory 中執行。
+本專案的軟體控制邏輯已編譯為機器碼。系統上電時會自動載入至 Instruction Memory 中執行。
 
 ## 7. 如何燒錄到 FPGA 開發板
 1. 將 Basys 3 透過 Micro-USB 連接至電腦並開啟電源。
